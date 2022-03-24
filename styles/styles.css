@@ -29,17 +29,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 95vh;
 }
 @media screen and (max-width: 376px) {
     .main-flexbox{
-        height: 80vh;
+        height: 90vh;
     }
     
 }
 
 .card{
-    width: 30%;
+    width: 26%;
     background-color: var(--white);
     border-radius: 16px;
     padding: 24px;
@@ -47,7 +47,7 @@ body{
 
 @media screen and (max-width: 376px) {
     .card{
-        width: 80%;
+        width: 90%;
     }
     
 }
@@ -60,6 +60,12 @@ body{
 .card__text-container{
     width: 90%;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 376px) {
+    .card__text-container{
+        width: 100%;
+    }
 }
 
 .card__header{

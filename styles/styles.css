@@ -29,7 +29,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
+}
+@media screen and (max-width: 376px) {
+    .main-flexbox{
+        height: 80vh;
+    }
+    
 }
 
 .card{
@@ -37,6 +43,13 @@ body{
     background-color: var(--white);
     border-radius: 16px;
     padding: 24px;
+}
+
+@media screen and (max-width: 376px) {
+    .card{
+        width: 80%;
+    }
+    
 }
 
 .card__QR{
@@ -58,5 +71,9 @@ body{
 .card__paragraph{
     color: var(--gray-blue);
     font-weight: 400;
+    text-align: center;
+}
+
+.attribution{
     text-align: center;
 }
